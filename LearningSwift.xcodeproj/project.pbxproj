@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		2AC119C828CEF6D100DDE7AC /* LearningSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */; };
-		2AC119CA28CEF6D100DDE7AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC119C928CEF6D100DDE7AC /* ContentView.swift */; };
+		2AC119CA28CEF6D100DDE7AC /* TOCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC119C928CEF6D100DDE7AC /* TOCView.swift */; };
 		2AC119CC28CEF6D200DDE7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */; };
 		2AC119CF28CEF6D200DDE7AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC119CE28CEF6D200DDE7AC /* Preview Assets.xcassets */; };
+		2AD5915828D0CC4C00586972 /* FontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5915728D0CC4C00586972 /* FontExamples.swift */; };
+		2AD5915A28D0CD4100586972 /* FontWeightExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5915928D0CD4100586972 /* FontWeightExample.swift */; };
+		2AF192B628CF050A007E3939 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF192B528CF050A007E3939 /* TextStyles.swift */; };
+		2AF192B928CF0CA1007E3939 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF192B828CF0CA1007E3939 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2AC119C428CEF6D100DDE7AC /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftApp.swift; sourceTree = "<group>"; };
-		2AC119C928CEF6D100DDE7AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2AC119C928CEF6D100DDE7AC /* TOCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOCView.swift; sourceTree = "<group>"; };
 		2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC119CE28CEF6D200DDE7AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AD5915728D0CC4C00586972 /* FontExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExamples.swift; sourceTree = "<group>"; };
+		2AD5915928D0CD4100586972 /* FontWeightExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightExample.swift; sourceTree = "<group>"; };
+		2AF192B528CF050A007E3939 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
+		2AF192B828CF0CA1007E3939 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		2AC119C628CEF6D100DDE7AC /* LearningSwift */ = {
 			isa = PBXGroup;
 			children = (
+				2AF192B728CF0C89007E3939 /* Extensions */,
+				2AF192B428CF04DD007E3939 /* Text */,
 				2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */,
-				2AC119C928CEF6D100DDE7AC /* ContentView.swift */,
+				2AC119C928CEF6D100DDE7AC /* TOCView.swift */,
 				2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */,
 				2AC119CD28CEF6D200DDE7AC /* Preview Content */,
 			);
@@ -65,6 +75,24 @@
 				2AC119CE28CEF6D200DDE7AC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AF192B428CF04DD007E3939 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				2AF192B528CF050A007E3939 /* TextStyles.swift */,
+				2AD5915728D0CC4C00586972 /* FontExamples.swift */,
+				2AD5915928D0CD4100586972 /* FontWeightExample.swift */,
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		2AF192B728CF0C89007E3939 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2AF192B828CF0CA1007E3939 /* Color+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC119CA28CEF6D100DDE7AC /* ContentView.swift in Sources */,
+				2AD5915828D0CC4C00586972 /* FontExamples.swift in Sources */,
+				2AD5915A28D0CD4100586972 /* FontWeightExample.swift in Sources */,
+				2AC119CA28CEF6D100DDE7AC /* TOCView.swift in Sources */,
 				2AC119C828CEF6D100DDE7AC /* LearningSwiftApp.swift in Sources */,
+				2AF192B628CF050A007E3939 /* TextStyles.swift in Sources */,
+				2AF192B928CF0CA1007E3939 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +296,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LearningSwift/Preview Content\"";
@@ -275,6 +308,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LearningSwift/Preview Content\"";
@@ -304,6 +339,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

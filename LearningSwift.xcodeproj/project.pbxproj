@@ -15,6 +15,7 @@
 		2AD5915828D0CC4C00586972 /* FontExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5915728D0CC4C00586972 /* FontExamples.swift */; };
 		2AD5915A28D0CD4100586972 /* FontWeightExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5915928D0CD4100586972 /* FontWeightExample.swift */; };
 		2AEF91BE28D3860100CF8ABA /* TOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF91BD28D3860100CF8ABA /* TOC.swift */; };
+		2AEF91C028D3AC8700CF8ABA /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF91BF28D3AC8700CF8ABA /* View+Extensions.swift */; };
 		2AF192B628CF050A007E3939 /* TextStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF192B528CF050A007E3939 /* TextStyles.swift */; };
 		2AF192B928CF0CA1007E3939 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF192B828CF0CA1007E3939 /* Color+Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,7 @@
 		2AD5915728D0CC4C00586972 /* FontExamples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExamples.swift; sourceTree = "<group>"; };
 		2AD5915928D0CD4100586972 /* FontWeightExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontWeightExample.swift; sourceTree = "<group>"; };
 		2AEF91BD28D3860100CF8ABA /* TOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOC.swift; sourceTree = "<group>"; };
+		2AEF91BF28D3AC8700CF8ABA /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 		2AF192B528CF050A007E3939 /* TextStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStyles.swift; sourceTree = "<group>"; };
 		2AF192B828CF0CA1007E3939 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				2AF192B828CF0CA1007E3939 /* Color+Extensions.swift */,
+				2AEF91BF28D3AC8700CF8ABA /* View+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				2AEF91BE28D3860100CF8ABA /* TOC.swift in Sources */,
 				2AC119C828CEF6D100DDE7AC /* LearningSwiftApp.swift in Sources */,
 				2AF192B628CF050A007E3939 /* TextStyles.swift in Sources */,
+				2AEF91C028D3AC8700CF8ABA /* View+Extensions.swift in Sources */,
 				2AF192B928CF0CA1007E3939 /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

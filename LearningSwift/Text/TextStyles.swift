@@ -10,16 +10,29 @@ import SwiftUI
 struct TextStyles: View {
     @State var sections = [
         TOCSection("Font Examples")
-        .addItem("Font Examples") {
-            FontExamples()
-        }
-        .addItem("Font Weight Examples") {
-            FontWeightExample()
-        }
+            .addItem("Default Fonts", icon: "textformat") {
+                FontExamples()
+            }
+            .addItem("Font Weights", icon: "scalemass") {
+                FontWeightExample()
+            }
+            .addItem("Custom Fonts", icon: "paintbrush") {
+                // TODO: Implement Me
+                EmptyView()
+            },
+        TOCSection("Text Examples")
+            .addItem("Text Alignment", icon: "align.horizontal.left") {
+                // TODO: Implement Me
+                EmptyView()
+            }
+            .addItem("Text Rotation", icon: "rotate.left") {
+                // TODO: Implement Me
+                EmptyView()
+            }
     ]
     
     var body: some View {
-        TOCView(title: "Text Styling", sections: $sections)
+        TOCView(title: "Using Text", sections: $sections)
     }
 }
 

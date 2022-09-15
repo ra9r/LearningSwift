@@ -39,29 +39,41 @@ struct TOCItem : Identifiable {
 struct TOCView: View {
     var title: String
     @Binding var sections: [TOCSection]
-  
+    
     var body: some View {
         NavigationStack {
             List {
-                ForEach(sections) { section in
-                    Section(section.id) {
-                        ForEach(section.items) { item in
-                            NavigationLink {
-                                item.destination
-                            } label: {
-                                HStack(spacing: 20) {
-                                    if let icon = item.icon {
-                                        Image(systemName: icon )
-                                    }
-                                    Text(item.id)
-                                }
-                            }
+                
+                if(sections.count >= 1) {
+                    ForEach(sections) { section in
+                        Section(section.id) {
+                            items(section.items)
                         }
                     }
+                    
+                } else {
+                    items(sections.first!.items)
                 }
+                
             }
             .navigationBarTitleDisplayMode(.large)
             .navigationTitle(title)
+        }
+    }
+    
+    func items(_ items: [TOCItem]) -> some View {
+        ForEach(items) { item in
+            NavigationLink {
+                item.destination
+            } label: {
+                HStack(spacing: 20) {
+                    if let icon = item.icon {
+                        Image(systemName: icon )
+                            .frame(maxWidth: 20)
+                    }
+                    Text(item.id)
+                }
+            }
         }
     }
     

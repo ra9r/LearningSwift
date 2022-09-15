@@ -15,22 +15,27 @@ struct HomeView: View {
                 TextStyles()
             }
             .addItem("Colors", icon: "eyedropper") {
+                // TODO: Implement Me
                 EmptyView()
             },
         
         TOCSection("Graphics & Animation")
             .addItem("Transitions", icon: "rectangle.portrait.and.arrow.right.fill") {
+                // TODO: Implement Me
                 EmptyView()
             }
             .addItem("Matched Geometry Effect", icon: "pip.swap") {
+                // TODO: Implement Me
                 EmptyView()
             },
         
         TOCSection("Specialty Kits")
             .addItem("Maps & Location", icon: "map") {
+                // TODO: Implement Me
                 EmptyView()
             }
             .addItem("JavaScriptCore", icon: "applescript") {
+                // TODO: Implement Me
                 EmptyView()
             }
     ]

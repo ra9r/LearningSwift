@@ -8,22 +8,18 @@
 import SwiftUI
 
 struct TextStyles: View {
+    @State var sections = [
+        TOCSection("Font Examples")
+        .addItem("Font Examples") {
+            FontExamples()
+        }
+        .addItem("Font Weight Examples") {
+            FontWeightExample()
+        }
+    ]
     
     var body: some View {
-        NavigationStack{
-            List {
-                NavigationLink("Font Examples") {
-                    FontExamples()
-                }
-                
-                NavigationLink("Font Weight Examples") {
-                    FontWeightExample()
-                }
-            }
-            .navigationBarTitleDisplayMode(.large)
-            .navigationTitle("Text Styling")
-            .navigationViewStyle(.automatic)
-        }
+        TOCView(title: "Text Styling", sections: $sections)
     }
 }
 

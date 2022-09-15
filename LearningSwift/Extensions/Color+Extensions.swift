@@ -24,7 +24,6 @@ struct Theme {
     let secondaryColor = Color("SecondaryColor")
     let strokeColor = Color("StrokeColor")
     let tertiaryColor = Color("TertiaryColor")
-    
 }
 
 

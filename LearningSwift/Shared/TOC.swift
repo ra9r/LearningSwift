@@ -8,25 +8,32 @@
 import SwiftUI
 
 
-class TOCSection : Identifiable {
-    var id: String
-    var items: [TOCItem] = []
+/// A section of a table of contents.  `TOCSection`'s are typically used as arrays of `[TOCSection]`
+public class TOCSection : Identifiable {
+    public var id: String
+    public var items: [TOCItem] = []
     
-    init(_ label: String) {
+    public init(_ label: String) {
         self.id = label
     }
     
-    @discardableResult func addItem(_ label: String, icon: String? = nil, @ViewBuilder destination: @escaping () -> some View) -> TOCSection {
+    /// Modifier that will add an item to the section
+    /// - Parameters:
+    ///   - label: The main text that is displayed in the item
+    ///   - icon: Optional icon that can appear to the left of the text
+    ///   - destination: The view to be displayed when the list item is clicked
+    /// - Returns: TOCSection to allow for easy chaining of sequential calls to addItem
+    @discardableResult public func addItem(_ label: String, icon: String? = nil, @ViewBuilder destination: @escaping () -> some View) -> TOCSection {
         items.append(TOCItem(label, icon: icon, destination: destination))
         return self
     }
 }
 
-struct TOCItem : Identifiable {
+public struct TOCItem : Identifiable {
     
-    let id: String
-    let icon: String?
-    let destination: AnyView
+    public let id: String
+    public let icon: String?
+    public let destination: AnyView
     
     init(_ label: String, icon: String?, @ViewBuilder destination: @escaping () -> some View) {
         self.id = label
@@ -36,11 +43,11 @@ struct TOCItem : Identifiable {
     
 }
 
-struct TOCView: View {
-    var title: String
-    @Binding var sections: [TOCSection]
+public struct TOCView: View {
+    public var title: String
+    @Binding public var sections: [TOCSection]
     
-    var body: some View {
+    public var body: some View {
         NavigationStack {
             List {
                 
@@ -61,7 +68,7 @@ struct TOCView: View {
         }
     }
     
-    func items(_ items: [TOCItem]) -> some View {
+    private func items(_ items: [TOCItem]) -> some View {
         ForEach(items) { item in
             NavigationLink {
                 item.destination

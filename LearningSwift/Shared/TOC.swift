@@ -48,24 +48,22 @@ public struct TOCView: View {
     @Binding public var sections: [TOCSection]
     
     public var body: some View {
-        NavigationStack {
-            List {
-                
-                if(sections.count >= 1) {
-                    ForEach(sections) { section in
-                        Section(section.id) {
-                            items(section.items)
-                        }
-                    }
-                    
-                } else {
-                    items(sections.first!.items)
+        
+        List(sections) { section in
+            
+            if(sections.count >= 1) {
+                Section(section.id) {
+                    items(section.items)
                 }
-                
+            } else {
+                items(section.items)
             }
-            .navigationBarTitleDisplayMode(.large)
-            .navigationTitle(title)
+            
         }
+        .navigationBarTitleDisplayMode(.large)
+        .navigationTitle(title)
+   
+        
     }
     
     private func items(_ items: [TOCItem]) -> some View {

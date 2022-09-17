@@ -28,7 +28,7 @@
 		2A3F528828D4A3D500CAEF30 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		2A3F528B28D4A67A00CAEF30 /* TabSegmentTOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSegmentTOC.swift; sourceTree = "<group>"; };
 		2A93D60328D2D09F00D5C085 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2AC119C428CEF6D100DDE7AC /* LearningSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC119C428CEF6D100DDE7AC /* SwiftJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftApp.swift; sourceTree = "<group>"; };
 		2AC119C928CEF6D100DDE7AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		2AC119C528CEF6D100DDE7AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AC119C428CEF6D100DDE7AC /* LearningSwift.app */,
+				2AC119C428CEF6D100DDE7AC /* SwiftJourney.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AC119C328CEF6D100DDE7AC /* LearningSwift */ = {
+		2AC119C328CEF6D100DDE7AC /* SwiftJourney */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "LearningSwift" */;
+			buildConfigurationList = 2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "SwiftJourney" */;
 			buildPhases = (
 				2AC119C028CEF6D100DDE7AC /* Sources */,
 				2AC119C128CEF6D100DDE7AC /* Frameworks */,
@@ -152,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = LearningSwift;
+			name = SwiftJourney;
 			productName = LearningSwift;
-			productReference = 2AC119C428CEF6D100DDE7AC /* LearningSwift.app */;
+			productReference = 2AC119C428CEF6D100DDE7AC /* SwiftJourney.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -185,7 +185,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AC119C328CEF6D100DDE7AC /* LearningSwift */,
+				2AC119C328CEF6D100DDE7AC /* SwiftJourney */,
 			);
 		};
 /* End PBXProject section */
@@ -364,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 0.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = app.ra9r.LearningSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = app.ra9r.SwiftJourney;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,7 +417,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "LearningSwift" */ = {
+		2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "SwiftJourney" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AC119D328CEF6D200DDE7AC /* Debug */,

@@ -11,7 +11,7 @@
 		2A3F528928D4A3D500CAEF30 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F528828D4A3D500CAEF30 /* IconButton.swift */; };
 		2A3F528C28D4A67A00CAEF30 /* TabSegmentTOC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F528B28D4A67A00CAEF30 /* TabSegmentTOC.swift */; };
 		2A93D60428D2D09F00D5C085 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A93D60328D2D09F00D5C085 /* LaunchScreen.storyboard */; };
-		2AC119C828CEF6D100DDE7AC /* LearningSwiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */; };
+		2AC119C828CEF6D100DDE7AC /* SwiftJourneyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC119C728CEF6D100DDE7AC /* SwiftJourneyApp.swift */; };
 		2AC119CA28CEF6D100DDE7AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC119C928CEF6D100DDE7AC /* HomeView.swift */; };
 		2AC119CC28CEF6D200DDE7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */; };
 		2AC119CF28CEF6D200DDE7AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AC119CE28CEF6D200DDE7AC /* Preview Assets.xcassets */; };
@@ -29,7 +29,7 @@
 		2A3F528B28D4A67A00CAEF30 /* TabSegmentTOC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabSegmentTOC.swift; sourceTree = "<group>"; };
 		2A93D60328D2D09F00D5C085 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2AC119C428CEF6D100DDE7AC /* SwiftJourney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftJourney.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSwiftApp.swift; sourceTree = "<group>"; };
+		2AC119C728CEF6D100DDE7AC /* SwiftJourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJourneyApp.swift; sourceTree = "<group>"; };
 		2AC119C928CEF6D100DDE7AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AC119CE28CEF6D200DDE7AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		2AC119BB28CEF6D100DDE7AC = {
 			isa = PBXGroup;
 			children = (
-				2AC119C628CEF6D100DDE7AC /* LearningSwift */,
+				2AC119C628CEF6D100DDE7AC /* SwiftJourney */,
 				2AC119C528CEF6D100DDE7AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,13 +84,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2AC119C628CEF6D100DDE7AC /* LearningSwift */ = {
+		2AC119C628CEF6D100DDE7AC /* SwiftJourney */ = {
 			isa = PBXGroup;
 			children = (
 				2A3F528A28D4A64B00CAEF30 /* TabsAndSegments */,
 				2A3F528528D3D4EF00CAEF30 /* Maps */,
 				2AEF91BC28D385D600CF8ABA /* Shared */,
-				2AC119C728CEF6D100DDE7AC /* LearningSwiftApp.swift */,
+				2AC119C728CEF6D100DDE7AC /* SwiftJourneyApp.swift */,
 				2AC119C928CEF6D100DDE7AC /* HomeView.swift */,
 				2AF192B728CF0C89007E3939 /* Extensions */,
 				2AF192B428CF04DD007E3939 /* Text */,
@@ -98,7 +98,7 @@
 				2AC119CD28CEF6D200DDE7AC /* Preview Content */,
 				2A93D60328D2D09F00D5C085 /* LaunchScreen.storyboard */,
 			);
-			path = LearningSwift;
+			path = SwiftJourney;
 			sourceTree = "<group>";
 		};
 		2AC119CD28CEF6D200DDE7AC /* Preview Content */ = {
@@ -153,7 +153,7 @@
 			dependencies = (
 			);
 			name = SwiftJourney;
-			productName = LearningSwift;
+			productName = SwiftJourney;
 			productReference = 2AC119C428CEF6D100DDE7AC /* SwiftJourney.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -213,7 +213,7 @@
 				2AD5915A28D0CD4100586972 /* FontWeightExample.swift in Sources */,
 				2AC119CA28CEF6D100DDE7AC /* HomeView.swift in Sources */,
 				2AEF91BE28D3860100CF8ABA /* TOC.swift in Sources */,
-				2AC119C828CEF6D100DDE7AC /* LearningSwiftApp.swift in Sources */,
+				2AC119C828CEF6D100DDE7AC /* SwiftJourneyApp.swift in Sources */,
 				2AF192B628CF050A007E3939 /* TextStyles.swift in Sources */,
 				2AEF91C028D3AC8700CF8ABA /* View+Extensions.swift in Sources */,
 				2A3F528C28D4A67A00CAEF30 /* TabSegmentTOC.swift in Sources */,
@@ -347,7 +347,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0.0.1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearningSwift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftJourney/Preview Content\"";
 				DEVELOPMENT_TEAM = GVBXG42723;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -380,7 +380,7 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 0.0.1;
-				DEVELOPMENT_ASSET_PATHS = "\"LearningSwift/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftJourney/Preview Content\"";
 				DEVELOPMENT_TEAM = GVBXG42723;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

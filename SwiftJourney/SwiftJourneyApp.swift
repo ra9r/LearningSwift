@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct LearningSwiftApp: App {
+struct SwiftJourneyApp: App {
     var body: some Scene {
         WindowGroup {
             HomeView()

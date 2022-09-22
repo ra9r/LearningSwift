@@ -31,7 +31,7 @@ struct HomeView: View {
         TOCSection("Layouts")
             .addItem("H, V and Z Stacks", icon: "align.horizontal.center") {
                 // TODO: Implement Me
-                EmptyView()
+                HStackStudy()
             }
             .addItem("Scroll View", icon: "scroll") {
                 // TODO: Implement Me
@@ -52,7 +52,11 @@ struct HomeView: View {
             }
             .addItem("Tabs & Segments", icon: "folder") {
                 // TODO: Implement Me
-                TabSegmentTOC()
+                PickerStudiesView()
+            }
+            .addItem("Forms", icon: "character.textbox") {
+                // TODO: Implement Me
+                EmptyView()
             }
             .addItem("Side Menu", icon: "sidebar.leading") {
                 // TODO: Implement Me
@@ -75,12 +79,14 @@ struct HomeView: View {
                 EmptyView()
             }
             .addItem("Pickers", icon: "rectangle.arrowtriangle.2.outward") {
-                // TODO: Implement Me
-                EmptyView()
+                PickerStudiesView()
             }
             .addItem("Sheets", icon: "arrow.up.square") {
                 // TODO: Implement Me
                 EmptyView()
+            }
+            .addItem("Charts", icon: "chart.xyaxis.line") {
+                ChartStudyView()
             }
         
         

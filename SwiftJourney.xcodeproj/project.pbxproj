@@ -43,7 +43,7 @@
 		2A93D60328D2D09F00D5C085 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A994E7128DB2A9E001DCC52 /* HStackStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackStudy.swift; sourceTree = "<group>"; };
 		2A994E7428DB43A1001DCC52 /* SheetStudyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetStudyView.swift; sourceTree = "<group>"; };
-		2AC119C428CEF6D100DDE7AC /* Swift Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AC119C428CEF6D100DDE7AC /* Swift-Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC119C728CEF6D100DDE7AC /* SwiftJourneyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftJourneyApp.swift; sourceTree = "<group>"; };
 		2AC119C928CEF6D100DDE7AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2AC119CB28CEF6D200DDE7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 		2AC119C528CEF6D100DDE7AC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2AC119C428CEF6D100DDE7AC /* Swift Journey.app */,
+				2AC119C428CEF6D100DDE7AC /* Swift-Journey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,9 +194,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2AC119C328CEF6D100DDE7AC /* Swift Journey */ = {
+		2AC119C328CEF6D100DDE7AC /* Swift-Journey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "Swift Journey" */;
+			buildConfigurationList = 2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "Swift-Journey" */;
 			buildPhases = (
 				2AC119C028CEF6D100DDE7AC /* Sources */,
 				2AC119C128CEF6D100DDE7AC /* Frameworks */,
@@ -206,9 +206,9 @@
 			);
 			dependencies = (
 			);
-			name = "Swift Journey";
+			name = "Swift-Journey";
 			productName = SwiftJourney;
-			productReference = 2AC119C428CEF6D100DDE7AC /* Swift Journey.app */;
+			productReference = 2AC119C428CEF6D100DDE7AC /* Swift-Journey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -239,7 +239,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2AC119C328CEF6D100DDE7AC /* Swift Journey */,
+				2AC119C328CEF6D100DDE7AC /* Swift-Journey */,
 			);
 		};
 /* End PBXProject section */
@@ -487,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "Swift Journey" */ = {
+		2AC119D228CEF6D200DDE7AC /* Build configuration list for PBXNativeTarget "Swift-Journey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2AC119D328CEF6D200DDE7AC /* Debug */,

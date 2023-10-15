@@ -23,6 +23,12 @@ struct PickerStudiesView: View {
             NavigationLink("Form Picker") {
                 FormPickerView()
             }
+            NavigationLink("Decimal Picker") {
+                DecimalPickerView()
+            }
+            NavigationLink("Multi-Component Picker") {
+                MultiComponentePicker()
+            }
         }
     }
 }

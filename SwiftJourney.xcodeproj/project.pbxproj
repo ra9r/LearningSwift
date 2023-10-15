@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A091E8A28E915CA00AC4C41 /* MultiComponentePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A091E8928E915CA00AC4C41 /* MultiComponentePicker.swift */; };
+		2A091E8C28E927F100AC4C41 /* DecimalPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A091E8B28E927F100AC4C41 /* DecimalPicker.swift */; };
 		2A3F528728D3D51000CAEF30 /* MapStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F528628D3D51000CAEF30 /* MapStudy.swift */; };
 		2A3F528928D4A3D500CAEF30 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F528828D4A3D500CAEF30 /* IconButton.swift */; };
 		2A3F528C28D4A67A00CAEF30 /* PickerStudiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3F528B28D4A67A00CAEF30 /* PickerStudiesView.swift */; };
@@ -28,9 +30,12 @@
 		2AF7C50D28DC408F00BBBF99 /* InlinePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C50C28DC408F00BBBF99 /* InlinePickerView.swift */; };
 		2AF7C50F28DC40DE00BBBF99 /* MenuPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C50E28DC40DE00BBBF99 /* MenuPickerView.swift */; };
 		2AF7C51128DC420400BBBF99 /* FormPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C51028DC420400BBBF99 /* FormPickerView.swift */; };
+		2AF7C51328DC5C1100BBBF99 /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7C51228DC5C1100BBBF99 /* DatePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A091E8928E915CA00AC4C41 /* MultiComponentePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiComponentePicker.swift; sourceTree = "<group>"; };
+		2A091E8B28E927F100AC4C41 /* DecimalPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalPicker.swift; sourceTree = "<group>"; };
 		2A3F528628D3D51000CAEF30 /* MapStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStudy.swift; sourceTree = "<group>"; };
 		2A3F528828D4A3D500CAEF30 /* IconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
 		2A3F528B28D4A67A00CAEF30 /* PickerStudiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerStudiesView.swift; sourceTree = "<group>"; };
@@ -53,6 +58,7 @@
 		2AF7C50C28DC408F00BBBF99 /* InlinePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlinePickerView.swift; sourceTree = "<group>"; };
 		2AF7C50E28DC40DE00BBBF99 /* MenuPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPickerView.swift; sourceTree = "<group>"; };
 		2AF7C51028DC420400BBBF99 /* FormPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPickerView.swift; sourceTree = "<group>"; };
+		2AF7C51228DC5C1100BBBF99 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				2AF7C50C28DC408F00BBBF99 /* InlinePickerView.swift */,
 				2AF7C50E28DC40DE00BBBF99 /* MenuPickerView.swift */,
 				2AF7C51028DC420400BBBF99 /* FormPickerView.swift */,
+				2AF7C51228DC5C1100BBBF99 /* DatePickerView.swift */,
+				2A091E8928E915CA00AC4C41 /* MultiComponentePicker.swift */,
+				2A091E8B28E927F100AC4C41 /* DecimalPicker.swift */,
 			);
 			path = PickerStudies;
 			sourceTree = "<group>";
@@ -256,11 +265,14 @@
 				2AD5915828D0CC4C00586972 /* FontExamples.swift in Sources */,
 				2A3F528728D3D51000CAEF30 /* MapStudy.swift in Sources */,
 				2AF7C50B28DC3F5700BBBF99 /* SegmentedPickerView.swift in Sources */,
+				2A091E8C28E927F100AC4C41 /* DecimalPicker.swift in Sources */,
 				2A994E7228DB2A9E001DCC52 /* HStackStudy.swift in Sources */,
 				2AD5915A28D0CD4100586972 /* FontWeightExample.swift in Sources */,
 				2AC119CA28CEF6D100DDE7AC /* HomeView.swift in Sources */,
 				2AEF91BE28D3860100CF8ABA /* TOC.swift in Sources */,
+				2A091E8A28E915CA00AC4C41 /* MultiComponentePicker.swift in Sources */,
 				2AC119C828CEF6D100DDE7AC /* SwiftJourneyApp.swift in Sources */,
+				2AF7C51328DC5C1100BBBF99 /* DatePickerView.swift in Sources */,
 				2AF192B628CF050A007E3939 /* TextStyles.swift in Sources */,
 				2AF7C50D28DC408F00BBBF99 /* InlinePickerView.swift in Sources */,
 				2AEF91C028D3AC8700CF8ABA /* View+Extensions.swift in Sources */,

@@ -21,11 +21,11 @@ struct HomeView: View {
             }
             .addItem("Colors & Gradients", icon: "eyedropper") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Shapes & Masks", icon: "star.square.fill") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             },
         
         TOCSection("Layouts")
@@ -35,15 +35,15 @@ struct HomeView: View {
             }
             .addItem("Scroll View", icon: "scroll") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Grid View", icon: "square.grid.3x3") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Lazy Layouts", icon: "rectangle.split.3x3") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             },
         
         TOCSection("Standard Components")
@@ -56,34 +56,34 @@ struct HomeView: View {
             }
             .addItem("Forms", icon: "character.textbox") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Side Menu", icon: "sidebar.leading") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Toggles", icon: "switch.2") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Buttons", icon: "cursorarrow.click") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Progress Indicators", icon: "timelapse") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Sliders", icon: "slider.horizontal.3") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Pickers", icon: "rectangle.arrowtriangle.2.outward") {
                 PickerStudiesView()
             }
             .addItem("Sheets", icon: "arrow.up.square") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Charts", icon: "chart.xyaxis.line") {
                 ChartStudyView()
@@ -96,45 +96,45 @@ struct HomeView: View {
         TOCSection("Graphics & Animation")
             .addItem("Animating Buttons", icon: "cursorarrow.click") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Timers", icon: "timer") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Screen Transitions", icon: "rectangle.portrait.and.arrow.right.fill") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Matched Geometry Effect", icon: "pip.swap") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             },
         
         TOCSection("Data Management")
             .addItem("Core Data", icon: "arrow.counterclockwise.icloud") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("REST Services", icon: "network") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Alerts & Notifications", icon: "exclamationmark.triangle") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("JSON Codeable", icon: "arrow.counterclockwise.icloud") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Multipeer Connectivity", icon: "network") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("JavaScriptCore", icon: "applescript") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             },
         
         TOCSection("Specialty Topics")
@@ -144,23 +144,23 @@ struct HomeView: View {
             }
             .addItem("Authentication", icon: "applescript") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("StoreKit", icon: "applescript") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("CloudKit", icon: "icloud") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("WebKit", icon: "network") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
             .addItem("Firebase Services", icon: "flame") {
                 // TODO: Implement Me
-                EmptyView()
+                ContentUnavailableView("Not Implemented Yet!", systemImage: "hammer.circle")
             }
         
         
